@@ -1,0 +1,7 @@
+Foto generali del sito (JPG o WebP, sotto i 250 KB, nomi esatti):
+hero-1.jpg     verticale 4:5 (1200x1500)
+hero-2.jpg     quadrata (900x900)
+hero-3.jpg     quadrata (900x900)
+about-lab.jpg  orizzontale 4:3 (1600x1200)
+og-cover.jpg   anteprima social 1200x630
+Finché una foto manca, il sito mostra un riquadro segnaposto.

@@ -1,0 +1,6 @@
+# robots.txt per SigmaLab
+# Dopo la pubblicazione sostituisci l'indirizzo qui sotto con quello reale del sito.
+User-agent: *
+Allow: /
+
+Sitemap: https://TUO-USERNAME.github.io/NOME-REPOSITORY/sitemap.xml

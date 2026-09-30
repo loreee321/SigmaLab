@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>SigmaLab</title>
+  <!--
+    LOGO PROVVISORIO di SigmaLab: cubo isometrico con "S" sulla faccia sinistra e "L" su quella destra.
+    Quando avrete il logo definitivo, sostituite questo file (stesso nome) e il sito lo userà ovunque.
+    Sul cubo, le linee sulla faccia arancione richiamano gli strati della stampa 3D.
+  -->
+  <g stroke="#090B12" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M32 4 56 18 32 32 8 18Z" fill="#FF6A1A"/>
+    <path d="M8 18 32 32V60L8 46Z" fill="#2F6BFF"/>
+    <path d="M32 32 56 18V46L32 60Z" fill="#1B47C4"/>
+  </g>
+  <!-- linee "layer" sulla faccia superiore -->
+  <g stroke="#B93F00" stroke-width="1" stroke-linecap="round" opacity=".55">
+    <path d="M14 14.5 38 28.5"/>
+    <path d="M20 11 44 25"/>
+    <path d="M26 7.5 50 21.5"/>
+  </g>
+  <!-- S sulla faccia sinistra -->
+  <g transform="translate(8 18) skewY(30)" stroke="#fff" stroke-width="3.2" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M17.5 7.5H7.5V14H16.5V20.5H6.5"/>
+  </g>
+  <!-- L sulla faccia destra -->
+  <g transform="translate(32 32) skewY(-30)" stroke="#fff" stroke-width="3.2" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M7.5 7V21H17.5"/>
+  </g>
+</svg>

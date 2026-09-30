@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Dopo la pubblicazione sostituisci l'indirizzo con quello reale del sito (deve finire con /) -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://TUO-USERNAME.github.io/NOME-REPOSITORY/</loc>
+  </url>
+</urlset>

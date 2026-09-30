@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SigmaLab | Stampa 3D creativa, progettata e realizzata in Italia</title>
+  <meta name="description" content="SigmaLab è un progetto di famiglia che progetta e stampa in 3D oggetti per casa, scrivania e gaming. Scopri i nostri lavori e visita il TikTok Shop.">
+  <meta name="theme-color" content="#090B12">
+
+  <!-- Anteprima social: dopo la pubblicazione sostituisci TUO-USERNAME e NOME-REPOSITORY -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="SigmaLab">
+  <meta property="og:title" content="SigmaLab | Stampa 3D creativa, progettata e realizzata in Italia">
+  <meta property="og:description" content="Un progetto di famiglia: oggetti stampati in 3D per casa, scrivania e gaming. Scopri i nostri lavori.">
+  <meta property="og:url" content="https://TUO-USERNAME.github.io/NOME-REPOSITORY/">
+  <meta property="og:image" content="https://TUO-USERNAME.github.io/NOME-REPOSITORY/assets/images/og-cover.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=DM+Sans:opsz,wght@9..40,400..700&display=swap">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+
+  <!-- Menu in alto -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="SigmaLab, torna all'inizio">
+        <img class="brand-mark" src="assets/icons/logo-mark.svg" width="38" height="38" alt="">
+        <span class="brand-name" data-brand>SigmaLab</span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Navigazione principale">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#chi-siamo">Chi siamo</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#come-lavoriamo">Come lavoriamo</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+        <a class="btn btn-shop btn-sm nav-cta" href="#shop" data-link="tiktokShop">
+          <span>Scopri il nostro TikTok Shop</span>
+          <svg class="icon-ext" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+        </a>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Apri il menu">
+        <span class="menu-bars" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Home (foto: assets/images/hero-1/2/3.jpg) -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+          <h1 class="hero-title print-text" id="hero-title">Le idee prendono forma.<br>Strato dopo strato.</h1>
+          <p class="lede">Progettiamo e realizziamo oggetti con la stampa 3D: tecnologia, creatività e cura dei dettagli, in un progetto che nasce in famiglia.</p>
+          <div class="hero-actions">
+            <a class="btn btn-ghost" href="#portfolio">Scopri i nostri lavori</a>
+            <a class="btn btn-shop" href="#shop" data-link="tiktokShop">
+              <span>Vai al TikTok Shop</span>
+              <svg class="icon-ext" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <figure class="frame frame-a print" style="--d:.2s">
+            <div class="ph ph-blue" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3 4 7.5v9L12 21l8-4.5v-9L12 3z"/><path d="M4 7.5 12 12l8-4.5M12 12v9"/></svg>
+              <span>Foto prodotto</span>
+            </div>
+            <img src="assets/images/hero-1.jpg" alt="Oggetto stampato in 3D da SigmaLab" width="1200" height="1500" fetchpriority="high" decoding="async" data-fallback>
+          </figure>
+          <figure class="frame frame-b print" style="--d:.7s">
+            <div class="ph" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3 4 7.5v9L12 21l8-4.5v-9L12 3z"/><path d="M4 7.5 12 12l8-4.5M12 12v9"/></svg>
+              <span>Foto prodotto</span>
+            </div>
+            <img src="assets/images/hero-2.jpg" alt="Dettaglio di una stampa 3D FDM" width="900" height="900" decoding="async" data-fallback>
+          </figure>
+          <figure class="frame frame-c print" style="--d:1s">
+            <div class="ph ph-orange" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3 4 7.5v9L12 21l8-4.5v-9L12 3z"/><path d="M4 7.5 12 12l8-4.5M12 12v9"/></svg>
+              <span>Foto prodotto</span>
+            </div>
+            <img src="assets/images/hero-3.jpg" alt="Un altro oggetto realizzato da SigmaLab" width="900" height="900" decoding="async" data-fallback>
+          </figure>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Punti di forza (verifica che siano tutti veri) -->
+    <section class="highlights" aria-label="In breve">
+      <div class="container">
+        <ul class="highlight-list">
+          <li class="highlight">
+            <svg class="hl-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <h2 class="hl-title">Produzione in Italia</h2>
+            <p>Ogni pezzo viene stampato e controllato in Italia.</p>
+          </li>
+          <li class="highlight">
+            <svg class="hl-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.4 2.4-2.6-.6-.6-2.6z"/></svg>
+            <h2 class="hl-title">Realizzato da noi</h2>
+            <p>Dal modello 3D al controllo finale, seguiamo tutto direttamente.</p>
+          </li>
+          <li class="highlight">
+            <svg class="hl-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 8l9 5 9-5-9-5z"/><path d="M3 12.5l9 5 9-5"/><path d="M3 17l9 5 9-5"/></svg>
+            <h2 class="hl-title">Stampa 3D FDM</h2>
+            <p>Oggetti costruiti strato dopo strato, versatili e adatti all'uso quotidiano.</p>
+          </li>
+          <li class="highlight">
+            <svg class="hl-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1-4L16 5l3 3L8 19l-4 1z"/><path d="M14 7l3 3"/></svg>
+            <h2 class="hl-title">Personalizzabile</h2>
+            <p>Hai un'idea? Valutiamo insieme come realizzarla.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Chi siamo (foto: assets/images/about-lab.jpg) -->
+    <section class="section" id="chi-siamo" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <h2 id="about-title">Un progetto di famiglia.</h2>
+          <p>SigmaLab nasce in famiglia, dalla passione per la stampa 3D e dalla voglia di trasformare idee e progetti in oggetti che puoi tenere in mano.</p>
+          <p>Siamo ancora all'inizio e stiamo crescendo: proviamo prodotti nuovi, miglioriamo quelli che abbiamo e ascoltiamo chi ci segue. Per ora vendiamo su TikTok Shop; qui trovi tutto il resto del progetto.</p>
+        </div>
+
+        <figure class="about-media reveal">
+          <div class="frame-static">
+            <div class="ph ph-blue" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3 4 7.5v9L12 21l8-4.5v-9L12 3z"/><path d="M4 7.5 12 12l8-4.5M12 12v9"/></svg>
+              <span>Foto del laboratorio</span>
+            </div>
+            <img src="assets/images/about-lab.jpg" alt="Le stampanti 3D e il laboratorio di SigmaLab" width="1600" height="1200" loading="lazy" decoding="async" data-fallback>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- I nostri lavori (le card arrivano da PRODUCTS in script.js) -->
+    <section class="section section-alt" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="portfolio-title">I nostri lavori</h2>
+          <p>Una selezione delle nostre creazioni.</p>
+        </div>
+
+        <ul class="product-grid" id="product-grid"></ul>
+
+        <noscript>
+          <p class="noscript-note">Per vedere i prodotti serve JavaScript. Nel frattempo puoi visitare direttamente il nostro TikTok Shop.</p>
+        </noscript>
+      </div>
+    </section>
+
+    <!-- Come lavoriamo -->
+    <section class="section" id="come-lavoriamo" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="process-title">Come lavoriamo</h2>
+          <p>Dall'idea al pacco, in cinque passaggi.</p>
+        </div>
+
+        <ol class="steps reveal">
+          <li class="step">
+            <span class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg></span>
+            <div class="step-body">
+              <span class="step-num">01</span>
+              <h3>Idea</h3>
+              <p>Partiamo dall'idea o dall'esigenza.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 7.5v9L12 21l8-4.5v-9L12 3z"/><path d="M4 7.5 12 12l8-4.5M12 12v9"/></svg></span>
+            <div class="step-body">
+              <span class="step-num">02</span>
+              <h3>Progettazione</h3>
+              <p>Prepariamo e adattiamo il modello 3D.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 8l9 5 9-5-9-5z"/><path d="M3 12.5l9 5 9-5"/><path d="M3 17l9 5 9-5"/></svg></span>
+            <div class="step-body">
+              <span class="step-num">03</span>
+              <h3>Stampa</h3>
+              <p>Produciamo il pezzo con la stampa 3D.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/></svg></span>
+            <div class="step-body">
+              <span class="step-num">04</span>
+              <h3>Controllo</h3>
+              <p>Controlliamo il risultato e prepariamo il prodotto.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h16v11H4z"/><path d="M4 9l2-5h12l2 5"/><path d="M10 13h4"/></svg></span>
+            <div class="step-body">
+              <span class="step-num">05</span>
+              <h3>Consegna</h3>
+              <p>Il prodotto viene preparato per la vendita e la spedizione.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Contatti (link da CONFIG.contactChannel) -->
+    <section class="section section-tight" id="contatti" aria-labelledby="custom-title">
+      <div class="container">
+        <div class="custom-panel reveal">
+          <div class="custom-copy">
+            <h2 id="custom-title">Hai un'idea?</h2>
+            <p>Raccontaci cosa hai in mente. Possiamo valutare insieme la possibilità di trasformare un'idea o un progetto in un oggetto reale.</p>
+          </div>
+          <a class="btn btn-light btn-lg" href="#contatti" data-link="contact">
+            <span>Contattaci</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TikTok Shop -->
+    <section class="section" id="shop" aria-labelledby="shop-title">
+      <div class="container">
+        <div class="shop-panel reveal">
+          <div class="shop-copy">
+            <h2 id="shop-title">Scopri le nostre creazioni.</h2>
+            <p>I nostri prodotti li trovi su TikTok Shop: è lì che puoi acquistarli direttamente.</p>
+            <a class="btn btn-shop btn-lg" href="#shop" data-link="tiktokShop">
+              <span>Visita il TikTok Shop</span>
+              <svg class="icon-ext" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+
+          <svg class="layer-stack" viewBox="0 0 240 290" aria-hidden="true" focusable="false">
+            <defs>
+              <path id="lyr" d="M120 0 240 60 120 120 0 60Z"/>
+              <linearGradient id="lyr-top" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#FF8A47"/>
+                <stop offset="1" stop-color="#FF6A1A"/>
+              </linearGradient>
+            </defs>
+            <g fill="#0F1320" stroke="#FF6A1A" stroke-linejoin="round">
+              <use href="#lyr" transform="translate(0 150)" stroke-opacity=".22"/>
+              <use href="#lyr" transform="translate(0 138)" stroke-opacity=".3"/>
+              <use href="#lyr" transform="translate(0 126)" stroke-opacity=".38"/>
+              <use href="#lyr" transform="translate(0 114)" stroke-opacity=".46"/>
+              <use href="#lyr" transform="translate(0 102)" stroke-opacity=".55"/>
+              <use href="#lyr" transform="translate(0 90)" stroke-opacity=".65"/>
+              <use href="#lyr" transform="translate(0 78)" stroke-opacity=".75"/>
+              <use href="#lyr" transform="translate(0 66)" stroke-opacity=".85"/>
+              <use href="#lyr" transform="translate(0 54)" fill="url(#lyr-top)" stroke-opacity="1"/>
+            </g>
+            <path d="M108 8h24l-6 46-6 14-6-14z" fill="#F3F5FA"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social -->
+    <section class="section section-alt" id="social" aria-labelledby="social-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="social-title">Seguici mentre creiamo.</h2>
+          <p>Novità, stampe in corso e nuovi prodotti.</p>
+        </div>
+
+        <ul class="social-grid reveal">
+          <li>
+            <a class="social-tile" href="#social" data-link="tiktok">
+              <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48z"/></svg></span>
+              <span class="social-name">TikTok</span>
+              <span class="social-desc">Guarda i nostri video</span>
+            </a>
+          </li>
+          <li>
+            <a class="social-tile" href="#social" data-link="instagram">
+              <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" class="dot"/></svg></span>
+              <span class="social-name">Instagram</span>
+              <span class="social-desc">Foto e dietro le quinte</span>
+            </a>
+          </li>
+          <li>
+            <a class="social-tile" href="#social" data-link="email">
+              <span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7.5 8 6 8-6"/></svg></span>
+              <span class="social-name">Email</span>
+              <span class="social-desc">Scrivici un messaggio</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#home" aria-label="SigmaLab, torna all'inizio">
+          <img class="brand-mark" src="assets/icons/logo-mark.svg" width="38" height="38" alt="">
+          <span class="brand-name" data-brand>SigmaLab</span>
+        </a>
+        <p>Progetto di famiglia. Oggetti stampati in 3D, progettati e realizzati in Italia.</p>
+      </div>
+
+      <nav class="footer-col" aria-label="Navigazione del footer">
+        <h2 class="footer-title">Esplora</h2>
+        <ul>
+          <li><a href="#chi-siamo">Chi siamo</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#come-lavoriamo">Come lavoriamo</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <h2 class="footer-title">Seguici</h2>
+        <ul>
+          <li><a href="#social" data-link="tiktok">TikTok</a></li>
+          <li><a href="#social" data-link="instagram">Instagram</a></li>
+          <li><a href="#social" data-link="email">Email</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h2 class="footer-title">Acquista</h2>
+        <a class="btn btn-shop btn-sm" href="#shop" data-link="tiktokShop">
+          <span>TikTok Shop</span>
+          <svg class="icon-ext" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="footer-legal">
+        SIGMALAB di D’AMBROSI ROMUALDO<br>
+        Via Brusuglio, 64 – 20161 Milano<br>
+        C.F. DMBRLD01S22G813T · P.I. 14904430965
+      </p>
+      <p>© <span id="year">2026</span> <span data-brand>SigmaLab</span>. Tutti i diritti riservati.</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
